@@ -66,5 +66,6 @@ def test_demo():
     wait.until(EC.element_to_be_clickable((By.ID, "finish"))).click()
 
     print("Test completed successfully")
+    print("Hussain")
 
     driver.quit()
